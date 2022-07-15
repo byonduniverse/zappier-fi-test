@@ -1,3 +1,4 @@
+import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
@@ -13,9 +14,21 @@ import PersonAddAltIcon from "@mui/icons-material/PersonAddAlt";
 import StarBorderIcon from "@mui/icons-material/StarBorder";
 import SendIcon from "@mui/icons-material/Send";
 import TuneIcon from "@mui/icons-material/Tune";
+import avatar from "./avatar.png";
 
 const Profile = () => (
-  <Box sx={{ display: "flex", flexDirection: "column", px: 2 }}>
+  <Box
+    sx={{
+      display: "flex",
+      flexDirection: "column",
+      px: 2,
+      position: "relative",
+    }}
+  >
+    <Avatar
+      src={avatar}
+      sx={{ position: "absolute", width: "96px", height: "96px", top: "-48px" }}
+    />
     <Box
       sx={{
         display: "flex",
