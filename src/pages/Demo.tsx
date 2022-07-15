@@ -13,7 +13,7 @@ const Demo = () => (
   <Box sx={{ display: "flex", justifyContent: "center" }}>
     <Box
       sx={{
-        maxWidth: "960px",
+        maxWidth: "744px",
         minHeight: "100vh",
         border: "1px solid #2C3A43",
       }}

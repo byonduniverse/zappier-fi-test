@@ -42,7 +42,7 @@ const NftCard = ({
   floorPrice: number;
   estValue: number;
 }) => (
-  <Card sx={{ borderRadius: "16px" }}>
+  <Card sx={{ borderRadius: "16px", height: "100%" }}>
     <CardMedia component="img" height="100" image={src} alt="nft" />
     <CardContent sx={{ padding: "12px" }}>
       <Typography variant="body1" color="white">
